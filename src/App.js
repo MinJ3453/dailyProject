@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import firebaseInit from './firebase_config';
 
 function App() {
+  console.log(firebaseInit)
   return (
     <div className="App">
       <header className="App-header">
